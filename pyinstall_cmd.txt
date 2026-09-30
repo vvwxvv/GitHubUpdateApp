@@ -1,0 +1,1 @@
+pyinstaller --onedir --name "GithubUpdate" --icon "static\favicon.ico" --add-data "static;static" --add-data "src/configs/github_update_ui_config.json;src/configs" --add-data ".env;." --clean main.py

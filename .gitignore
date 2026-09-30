@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+.venv/
+venv/
+appenv/
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Logs
+*.log
+
+
+# --- appended by GitHubPushApp ---
+# Node
+node_modules/
+# Large/binary artifacts
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors

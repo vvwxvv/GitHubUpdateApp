@@ -1,0 +1,21 @@
+{
+  "app": {
+    "title": "GitHub Update",
+    "logo": "static/cover.png",
+    "size": [540, 940],
+    "accent": "#d2edf2",
+    "accent_hover": "#d2edf2"
+  },
+  "params": [
+    {
+      "name": "folder_path",
+      "type": "folder",
+      "label": "Select Project Folder",
+      "required": true,
+      "auto_git_init": true
+    }
+  ],
+  "run": {
+    "label": "Update Repository"
+  }
+}
